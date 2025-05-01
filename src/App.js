@@ -48,7 +48,7 @@ function App() {
           ))}
         </div>
         <div className="text-center text-lg font-semibold">
-          <p>Şu anda <span className="text-indigo-600">"{currentTab}"</span> sekmesindesiniz.</p>
+          <p>Şu anda <span className="text-indigo-600">{currentTab}</span> sekmesindesiniz.</p>
         </div>
         <div className="mt-4 text-indigo-400 p-4 border rounded-lg w-full max-w-xl bg-gray-50 shadow-sm">
           {renderContent()}
